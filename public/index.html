@@ -17,44 +17,43 @@
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather PWA</title>
+  <title>Hava Durumu</title>
   <meta name="codelab" content="your-first-pwa-v3">
   <link rel="stylesheet" type="text/css" href="/styles/inline.css">
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
-  <!-- CODELAB: Add link rel manifest -->
-  <!-- CODELAB: Add iOS meta tags and icons -->
-  <!-- CODELAB: Add description here -->
-  <!-- CODELAB: Add meta theme-color -->
+  <!-- CODELAB: manifest bağlantısını buraya ekle -->
+  <!-- CODELAB: iOS meta etiketlerini ve ikonlarını buraya ekle -->
+  <!-- CODELAB: Açıklamayı buraya ekle -->
+  <!-- CODELAB: theme-color meta etiketini buraya ekle -->
 
 </head>
 <body>
 
   <header class="header">
     <h1>
-      Weather PWA
+      Hava Durumu
       <a href="https://darksky.net/poweredby/" class="powered-by">
-        Powered by Dark Sky
+        Dark Sky ile güçlendirilmiştir.
       </a>
     </h1>
-    <button id="butInstall" aria-label="Install" hidden></button>
-    <button id="butRefresh" aria-label="Refresh"></button>
+    <button id="butInstall" aria-label="Yükle" hidden></button>
+    <button id="butRefresh" aria-label="Yenile"></button>
   </header>
 
   <main class="main">
 
-    <button id="butAdd" class="fab" aria-label="Add">
+    <button id="butAdd" class="fab" aria-label="Ekle">
       <span class="icon add"></span>
     </button>
 
     <div id="about" class="weather-card">
-      <b>Your First Progressive Web App Codelab</b><br>
-      Get started at <a href="https://g.co/codelabs/pwa">https://g.co/codelabs/pwa</a>.
+      <b>İlk PWA'm</b> uygulaması, Dr. İlker Kayabaş'ın <em>İlerici Web Uygulamaları (PWA)</em> dersi için oluşturulmuştur.
     </div>
 
     <div id="weather-template" class="weather-card" hidden>
@@ -73,26 +72,26 @@
         <div class="visual">
           <div class="icon"></div>
           <div class="temperature">
-            <span class="value"></span><span class="scale">°F</span>
+            <span class="value"></span><span class="scale">°C</span>
           </div>
         </div>
         <div class="description">
           <div class="humidity">
-            <span class="label">Humidity:</span>
+            <span class="label">Nem:</span>
             <span class="value"></span><span class="scale">%</span>
           </div>
           <div class="wind">
-            <span class="label">Wind:</span>
+            <span class="label">Rüzgar:</span>
             <span class="value"></span>
             <span class="scale">mph</span>
             <span class="direction"></span>°
           </div>
           <div class="sunrise">
-            <span class="label">Sunrise:</span>
+            <span class="label">Gündoğumu:</span>
             <span class="value"></span>
           </div>
           <div class="sunset">
-              <span class="label">Sunset:</span>
+              <span class="label">Gün batımı:</span>
               <span class="value"></span>
             </div>
         </div>
@@ -174,12 +173,11 @@
 
   <div id="addDialogContainer">
     <div class="dialog">
-      <div class="dialog-title">Add new city</div>
+      <div class="dialog-title">Şehir Ekle</div>
       <div class="dialog-body">
-        <select id="selectCityToAdd" aria-label="City to add">
+        <select id="selectCityToAdd" aria-label="Şehir Ekle">
           <!--
-            Values are lat/lon values, use Google Maps to find and add
-            additional cities.
+            lat/lon değerlerini kullanarak yeni şehirler eklemek için Google Maps'i kullanabilirsiniz.
           -->
           <option value="28.6472799,76.8130727">Dehli, India</option>
           <option value="-5.7759362,106.1174957">Jakarta, Indonesia</option>
@@ -193,17 +191,17 @@
         </select>
       </div>
       <div class="dialog-buttons">
-        <button id="butDialogCancel" class="button">Cancel</button>
-        <button id="butDialogAdd" class="button">Add</button>
+        <button id="butDialogCancel" class="button">İptal</button>
+        <button id="butDialogAdd" class="button">Ekle</button>
       </div>
     </div>
   </div>
 
   <script src="/scripts/luxon-1.11.4.js"></script>
   <script src="/scripts/app.js"></script>
-  <!-- CODELAB: Add the install script here -->
+  <!-- CODELAB: Kurulum kodunu buraya ekle -->
   <script>
-    // CODELAB: Register service worker.
+    // CODELAB: Hizmet çalışanı (service worker) kodlarını buraya ekle 
   </script>
 
 </body>
