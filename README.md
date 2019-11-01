@@ -16,4 +16,4 @@ Doğrudan web üzerinde oluşturulan ve yayınlanan ilerici web uygulamaları (P
 
 Uygulama kapsamındaki hava durumu verileri <https://darksky.net/dev>'ten alınmaktadır. Ticari olmayan projeler için ücretsizdir. Dark Sky'dan güncel hava durumu verilerini alabilmek için bir API anahtarı oluşturmanız gerekir.
 
-**Not:**Bu uygulama Dark Sky olmadan da kullanabilirsiniz.
+**Not:** Bu uygulama Dark Sky olmadan da kullanabilirsiniz.
