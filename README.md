@@ -1,6 +1,6 @@
 # İlk PWA'm
 
-Bu kod deposu İlerici Web Uygulamaları dersinde kullanılmak üzere hazırlanmıştır.
+Güncel hava durumunu takip etmek amacıyla geliştirilen bu basit kod deposu, İlerici Web Uygulamaları dersinde kullanılmak üzere hazırlanmıştır.
 
 Günümüzde mobil ve masaüstü uygulamalar geliştirmek için genel olarak üç farklı yaklaşımdan söz edilebilir: PWA, hibrit ve native.
 
@@ -8,6 +8,10 @@ Doğrudan web üzerinde oluşturulan ve yayınlanan ilerici web uygulamaları (P
 
 İleri web uygulamaları geliştirme süreçlerine odaklanan bu dersi kapsamında sizlerle birlikte adım adım basit bir hava durumu uygulaması geliştireceğiz. Dersi tamamladığınızda,
 
-* Bir web uygulaması manifestosu oluşturabilecek
-* Web uygulamalarınızda çevrimdışı kullanım deneyimi sağlayabilecek
-* Ve web uygulamalarınızda kurulum deneyimi sunabileceksiniz.
+- Bir web uygulaması manifestosu oluşturabilecek
+- Web uygulamalarınızda çevrimdışı kullanım deneyimi sağlayabilecek
+- Ve web uygulamalarınızda kurulum deneyimi sunabileceksiniz.
+
+# Dark Sky API Anahtarı
+
+Uygulama kapsamındaki hava durumu verileri <darksky.net>'ten alınmaktadır. hava durumu hizmetinden alınmaktadır. Dark Sky'dan güncel hava durumu verilerini alabilmek için bir API anahtarı oluşturmanız gerekir. Ticari olmayan projeler için Dark Sky'ın kullanımı ücretsizdir.
