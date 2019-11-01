@@ -1,20 +1,3 @@
-/*
- * @license
- * Your First PWA Codelab (https://g.co/codelabs/pwa)
- * Copyright 2019 Google Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License
- */
 'use strict';
 
 const weatherApp = {
@@ -162,7 +145,7 @@ function getForecastFromNetwork(coords) {
  * @return {Object} The weather forecast, if the request fails, return null.
  */
 function getForecastFromCache(coords) {
-  // CODELAB: Add code to get weather forecast from the caches object.
+  // CODELAB: Önbellekten hava tahminlerini almak için gerekli kodları ekleyin.
 
 }
 
@@ -197,7 +180,7 @@ function updateData() {
   Object.keys(weatherApp.selectedLocations).forEach((key) => {
     const location = weatherApp.selectedLocations[key];
     const card = getForecastCard(location);
-    // CODELAB: Add code to call getForecastFromCache
+    // CODELAB: GetForecastFromCache methodunu çağırmak için gerekli kodu ekleyin.
 
     // Get the forecast data from the network.
     getForecastFromNetwork(location.geo)

@@ -1,8 +1,8 @@
 {
-  "name": "your-first-pwapp",
-  "version": "2.0.0",
-  "description": "Codelab for Your First PWAPP",
-  "homepage": "https://codelabs.developers.google.com/codelabs/your-first-pwapp/",
+  "name": "ilk-pwam",
+  "version": "1.0.0",
+  "description": "İlerici Web Uygulamaları (PWA) dersi kapsamında kullanılmak üzere googlecodelabs/your-first-pwapp kod deposundan türetilmiş ve Türkçeleştirilmiştir.",
+  "homepage": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/googlecodelabs/your-first-pwapp.git"
+    "url": "https://github.com/ikybs/ilk-pwam.git"
   },
   "bugs": {
-    "url": "https://github.com/googlecodelabs/your-first-pwapp/issues"
+    "url": "https://github.com/ikybs/ilk-pwam/issues"
   },
   "license": "Apache2",
   "keywords": [

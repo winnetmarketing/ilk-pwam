@@ -1,62 +1,45 @@
-/*
- * @license
- * Your First PWA Codelab (https://g.co/codelabs/pwa)
- * Copyright 2019 Google Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License
- */
 'use strict';
 
 let deferredInstallPrompt = null;
 const installButton = document.getElementById('butInstall');
 installButton.addEventListener('click', installPWA);
 
-// CODELAB: Add event listener for beforeinstallprompt event
+// CODELAB: beforeinstallprompt olay dinleyicisini ekleyin.
 
 
 /**
- * Event handler for beforeinstallprompt event.
- *   Saves the event & shows install button.
+ * beforeinstallprompt olay işleyicisi.
+ *   Etkinliği kaydeder ve yükleme düğmesini gösterir.
  *
  * @param {Event} evt
  */
 function saveBeforeInstallPromptEvent(evt) {
-  // CODELAB: Add code to save event & show the install button.
+  // CODELAB: Etkinliği kaydetmek ve yükleme düğmesini göstermek için gerekli kodları ekleyin.
 
 }
 
 
 /**
- * Event handler for butInstall - Does the PWA installation.
+ * butInstall olay işleyicisi - PWA'nın kurulumunu yapar.
  *
  * @param {Event} evt
  */
 function installPWA(evt) {
-  // CODELAB: Add code show install prompt & hide the install button.
+  // CODELAB: Kurulum istemini gösterin ve kurulum düğmesini gizleyin.
 
-  // CODELAB: Log user response to prompt.
+  // CODELAB: Kullanıcının yanıtını logla.
 
 }
 
-// CODELAB: Add event listener for appinstalled event
+// CODELAB: appinstalled olay işleyicisini ekleyin.
 
 /**
- * Event handler for appinstalled event.
- *   Log the installation to analytics or save the event somehow.
+ * appinstalled olay işleyicisi.
+ *   Yükleme ile bilgileri loglar.
  *
  * @param {Event} evt
  */
 function logAppInstalled(evt) {
-  // CODELAB: Add code to log the event
+  // CODELAB: Yükleme bilgilerini loglayın.
 
 }
