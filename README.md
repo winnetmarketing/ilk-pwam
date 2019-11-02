@@ -6,10 +6,10 @@ Günümüzde mobil ve masaüstü uygulamalar geliştirmek için genel olarak ü�
 
 Doğrudan web üzerinde oluşturulan ve yayınlanan ilerici web uygulamaları (PWA - Progressive Web Application), mobil ve masaüstü cihazlara kurulabilen uygulamalara benzer bir kullanıcı deneyimi sağlar. Klasik web uygulamalarından farklı olarak daha hızlı ve güvenilirdir. PWA'ları native uygulamalar gibi cihazlara kurabilir, offline çalıştırabilir ve belli seviyede donanımsal özelliklere erişim sağlayabilirsiniz.
 
-İleri web uygulamaları geliştirme süreçlerine odaklanan bu dersi kapsamında sizlerle birlikte adım adım basit bir hava durumu uygulaması geliştireceğiz. Dersi tamamladığınızda,
+İleri web uygulamaları (PWA) geliştirme süreçlerine odaklanan bu ders kapsamında sizlerle birlikte basit bir hava durumu uygulamasını adım adım PWA'ya dönüştüreceğiz. Dersi tamamladığınızda,
 
-- Bir web uygulaması manifestosu oluşturabilecek
-- Web uygulamalarınızda çevrimdışı kullanım deneyimi sağlayabilecek
+- Bir web uygulaması manifestosu oluşturabilecek,
+- Web uygulamalarınızda çevrimdışı kullanım deneyimi sağlayabilecek,
 - Ve web uygulamalarınızda kurulum deneyimi sunabileceksiniz.
 
 # Dark Sky API Anahtarı
