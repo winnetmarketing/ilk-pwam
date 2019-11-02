@@ -1,6 +1,6 @@
 # İlk PWA'm
 
-Güncel hava durumunu takip etmek amacıyla geliştirilen bu basit kod deposu, İlerici Web Uygulamaları dersinde kullanılmak üzere hazırlanmıştır.
+Güncel hava durumunu takip etmek amacıyla geliştirilen bu basit kod deposu, Dr. İlker Kayabaş tarafından sunulan İlerici Web Uygulamaları (PWA) dersinde kullanılmak üzere hazırlanmıştır.
 
 Günümüzde mobil ve masaüstü uygulamalar geliştirmek için genel olarak üç farklı yaklaşımdan söz edilebilir: PWA, hibrit ve native.
 
