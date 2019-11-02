@@ -76,7 +76,7 @@ function renderForecast(card, data) {
   const forecastFrom = luxon.DateTime
       .fromSeconds(data.currently.time)
       .setZone(data.timezone)
-      .toFormat('DDDD t');
+      .toFormat('DDDD t', { locale: 'tr' });
   card.querySelector('.date').textContent = forecastFrom;
   card.querySelector('.current .icon')
       .className = `icon ${data.currently.icon}`;
@@ -91,12 +91,12 @@ function renderForecast(card, data) {
   const sunrise = luxon.DateTime
       .fromSeconds(data.daily.data[0].sunriseTime)
       .setZone(data.timezone)
-      .toFormat('t');
+      .toFormat('t', { locale: 'tr' });
   card.querySelector('.current .sunrise .value').textContent = sunrise;
   const sunset = luxon.DateTime
       .fromSeconds(data.daily.data[0].sunsetTime)
       .setZone(data.timezone)
-      .toFormat('t');
+      .toFormat('t', { locale: 'tr' });
   card.querySelector('.current .sunset .value').textContent = sunset;
 
   // Render the next 7 days.
@@ -106,7 +106,7 @@ function renderForecast(card, data) {
     const forecastFor = luxon.DateTime
         .fromSeconds(forecast.time)
         .setZone(data.timezone)
-        .toFormat('ccc');
+        .toFormat('ccc', { locale: 'tr' });
     tile.querySelector('.date').textContent = forecastFor;
     tile.querySelector('.icon').className = `icon ${forecast.icon}`;
     tile.querySelector('.temp-high .value')
@@ -180,6 +180,7 @@ function updateData() {
   Object.keys(weatherApp.selectedLocations).forEach((key) => {
     const location = weatherApp.selectedLocations[key];
     const card = getForecastCard(location);
+
     // CODELAB: GetForecastFromCache methodunu çağırmak için gerekli kodu ekleyin.
 
     // Get the forecast data from the network.
@@ -215,9 +216,9 @@ function loadLocationList() {
     }
   }
   if (!locations || Object.keys(locations).length === 0) {
-    const key = '40.7720232,-73.9732319';
+    const key = '39.765192,30.528333';
     locations = {};
-    locations[key] = {label: 'New York City', geo: '40.7720232,-73.9732319'};
+    locations[key] = {label: 'Eskişehir', geo: '39.765192,30.528333'};
   }
   return locations;
 }
